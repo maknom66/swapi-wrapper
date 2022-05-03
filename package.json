@@ -1,0 +1,22 @@
+{
+  "name": "swapi-wrapper",
+  "version": "1.0.0",
+  "description": "A JS Wrapper for SWAPI: The Star Wars API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maknom66/swapi-wrapper.git"
+  },
+  "keywords": [
+    "swapi-wrapper"
+  ],
+  "author": "maknom66",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maknom66/swapi-wrapper/issues"
+  },
+  "homepage": "https://github.com/maknom66/swapi-wrapper#readme"
+}
