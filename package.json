@@ -4,7 +4,8 @@
   "description": "A JS Wrapper for SWAPI: The Star Wars API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/maknom66/swapi-wrapper/issues"
   },
-  "homepage": "https://github.com/maknom66/swapi-wrapper#readme"
+  "homepage": "https://github.com/maknom66/swapi-wrapper#readme",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
 }
